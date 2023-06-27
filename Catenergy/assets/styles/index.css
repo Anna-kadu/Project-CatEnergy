@@ -7,3 +7,84 @@
     font-family: Oswald;
     src: url(Catenergy\assets\fonts\Oswald-Light.ttf);
 }
+
+.section3__function {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.section3__function_number1 {
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-position: 70% top;
+    height: 40vh;
+    width: 15vw;
+}
+
+.section3__function_number2 {
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    height: 40vh;
+    width: 15vw;
+}
+
+.section3__function_number3 {
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    height: 40vh;
+    width: 15vw;
+}
+
+.section3__function_number4 {
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    height: 40vh;
+    width: 15vw;
+}
+
+.section4__progress {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.section4__progress_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin: 5%;
+    padding: 2%;
+    width: 30vw;
+}
+
+.section4__progress_cat {
+    position: relative;
+    bottom: 30%;
+}
+
+.section4__progress_modules {
+    display: flex;
+    gap: 10%;
+    margin-top: 15%;
+}
+
+.section4__progress_expenses {
+    display: flex;
+    gap: 15%;
+    margin-top: 10%;
+}
+
+.section4__progress_slider {
+    position: relative;
+    bottom: 40%;
+    left: 20%;
+}
+
+
