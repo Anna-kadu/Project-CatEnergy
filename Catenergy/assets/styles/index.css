@@ -1,12 +1,76 @@
 @font-face {
     font-family: Oswald;
-    src: url(Catenergy\assets\fonts\Oswald-Bold.ttf);
+    src: url(/Catenergy/assets/fonts/Oswald-Bold.ttf);
 }
 
 @font-face {
     font-family: Oswald;
-    src: url(Catenergy\assets\fonts\Oswald-Light.ttf);
+    src: url(/Catenergy/assets/fonts/Oswald-Light.ttf);
 }
+
+.section2-catalog {
+    display: flex;
+    justify-content: space-between;
+    gap: 6.15vw;
+}
+
+.column {
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    width: 570px;
+    height: 374px;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.section2-article {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    padding: 5%;
+    width: 82rem;
+}
+
+.section2-img_pro,
+.section2-img_slim {
+    align-self: start;
+}
+
+.section2-img_pro {
+    width: 134px;
+    height: 100px;
+}
+
+.section2-img_slim {
+    width: 100px;
+    height: 106px;
+}
+
+.section2-H2 {
+    margin: 35px;
+    height: fit-content;
+    align-self: start;
+    width: 270px;
+
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section2-text {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
 
 .section3__function {
     display: flex;
@@ -86,5 +150,3 @@
     bottom: 40%;
     left: 20%;
 }
-
-
