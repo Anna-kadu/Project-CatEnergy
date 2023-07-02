@@ -1,11 +1,11 @@
 @font-face {
     font-family: Oswald;
-    src: url(Catenergy\assets\fonts\Oswald-Bold.ttf);
+    src: url(/Catenergy/assets/fonts/Oswald-Bold.ttf);
 }
 
 @font-face {
     font-family: Oswald;
-    src: url(Catenergy\assets\fonts\Oswald-Light.ttf);
+    src: url(/Catenergy/assets/fonts/Oswald-Light.ttf);
 }
 
 @media (min-width: 1000px) {
