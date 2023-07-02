@@ -170,6 +170,30 @@
         flex-direction: row;
         gap: 4vh;
     }
+    .section4 {
+        background-color: #F2F2F2;
+    }
+    .section4__progress_modules {
+        display: flex;
+        justify-content: space-around;
+    }
+    .section4__progress_expenses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+    .section4__progress_cat {
+        max-width: 100%;
+    }
+    .section4__progress_slider2 {
+        max-width: 50%;
+    }
+    .section4__progress_slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 
