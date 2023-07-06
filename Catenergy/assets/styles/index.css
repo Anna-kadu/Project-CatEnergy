@@ -184,7 +184,7 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 500px) and (max-width: 1024px) {
     .section_2-catalog {
         /* border: 2px solid red; */
         display: grid;
@@ -351,7 +351,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .section_2-catalog {
         /* border: 2px solid red; */
