@@ -8,6 +8,164 @@
     src: url(/Catenergy/assets/fonts/Oswald-Light.ttf);
 }
 
+.header {
+    width: auto;
+    height: 696px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.header__container {
+    display: flex;
+    justify-content: left;
+    padding-top: 40px;
+}
+
+
+.header__logo-holder {
+    display: flex;
+    max-width: 202px;
+    max-height: 59px;
+    margin-top: 0.5vh;
+    margin-left: 7vw;
+}
+
+.header__logo {
+    width: 100%;
+}
+
+.header__menu-holder {
+    display: flex;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .header__menu-holder {
+        position: column;
+        margin-right: 5vw;
+        /* width: 250px;
+        left: -300px;
+        top: 0;
+        background-color: #68B738;
+        opacity: 97%;
+        padding: 83px 20px 20px 20px;
+        transition: transform 0.5s;
+        z-index: 50; */
+        color: black;
+    }
+}
+
+.header__menu {
+    display: flex;
+    margin-left: 35vw;
+    margin-top: 4vh;
+    gap: 2vw;
+    list-style: none;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .header__menu {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+}
+
+.header__link {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 800px) {
+    .header__link {
+        font-size: 20px !important;
+    }
+}
+
+.header__link:hover {
+    text-decoration: underline #feffff;
+    opacity: 0.75;
+}
+
+.header_mainpage {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.header_h2 {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 70px;
+}
+
+.header_h3 {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 3vh;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.header_button {
+    display: flex;
+    height: 54px;
+    width: 244px;
+    justify-content: center;
+    padding-top: 27px;
+    margin-left: 150px;
+    margin-top: 5vh;
+    background-color: #68B738;
+    text-decoration: none;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header_button:hover {
+    text-decoration: underline #2d3741;
+    opacity: 0.75;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .header {
+        background-image: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        background-image: none;
+    }
+
+    .header__logo-holder {
+        /* display: absolute;
+        justify-content: center;
+        max-width: 202px;
+        max-height: 59px;
+        margin-top: 0.5vh;
+        margin-left: 7vw;
+        border: solid; */
+    }
+}
+
+
 @media (min-width: 1000px) {
     .section_2-catalog {
         /* border: 2px solid red; */
