@@ -167,12 +167,17 @@
 
 
 @media (min-width: 1000px) {
+    body {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
     .section_2-catalog {
         /* border: 2px solid red; */
         display: grid;
-        grid-template-columns: repeat(2, 50vw);
+        grid-template-columns: repeat(2, 48%);
         grid-auto-rows: 374px;
-        gap: 80px;
+        gap: 4%;
         justify-content: center;
     }
 
@@ -180,8 +185,8 @@
         /* border: 2px solid blue; */
         background: #F2F2F2;
         display: grid;
-        grid-template-columns: 214px 355px;
-        grid-template-rows: 186px 93px 93px;
+        grid-template-columns: 160px 1fr;
+        grid-template-rows: 50% 25% 25%;
         grid-template-areas:
             "section_2-img section_2-h2"
             "section_2-text section_2-text"
@@ -211,6 +216,7 @@
         grid-area: section_2-h2;
         display: grid;
         align-content: center;
+        padding: 5%;
     }
 
     .section_2-h2-2 {
@@ -227,8 +233,8 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        padding-left: 52px;
-        padding-right: 51px;
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
     .section_2-link {
@@ -236,7 +242,7 @@
         grid-area: section_2-link;
         display: grid;
         align-content: start;
-        padding-left: 52px;
+        padding-left: 7%;
     }
 
     h2 {
@@ -342,13 +348,18 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 500px) and (max-width: 1024px) {
+    body {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
     .section_2-catalog {
         /* border: 2px solid red; */
         display: grid;
-        grid-template-columns: repeat(auto-fill, 708px);
+        grid-template-columns: repeat(auto-fill, 100%);
         grid-auto-rows: 372px;
-        gap: 80px;
+        gap: 4%;
         justify-content: center;
     }
 
@@ -356,8 +367,8 @@
         /* border: 2px solid blue; */
         background: #F2F2F2;
         display: grid;
-        grid-template-columns: 429px 279px;
-        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 1fr 280px;
+        grid-template-rows: 30% 40% 1fr;
         grid-template-areas:
             "section_2-h2 section_2-img"
             "section_2-text section_2-img"
@@ -370,18 +381,18 @@
         display: grid;
         align-content: center;
         justify-content: center;
+
     }
 
     .section_2-img_slim {
         /* border: 1px solid black; */
         max-width: 200px;
-        padding-right: 28px;
     }
 
     .section_2-img_pro {
         /* border: 1px solid black; */
         max-width: 268px;
-        padding-right: 50px;
+        margin-right: 10%;
     }
 
     .section_2-h2 {
@@ -396,7 +407,7 @@
         font-size: 36px;
         font-weight: 400;
         line-height: 36px;
-        padding-left: 52px;
+        padding-left: 7%;
     }
 
     .section_2-text {
@@ -406,8 +417,7 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        padding-left: 52px;
-        padding-right: 51px;
+        padding-left: 7%;
     }
 
     .section_2-link {
@@ -415,7 +425,7 @@
         grid-area: section_2-link;
         display: grid;
         align-content: center;
-        padding-left: 52px;
+        padding-left: 7%;
     }
 
     h2 {
@@ -509,14 +519,19 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
+
+    body {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 
     .section_2-catalog {
         /* border: 2px solid red; */
         display: grid;
-        grid-template-columns: repeat(auto-fill, 280px);
+        grid-template-columns: repeat(auto-fill, 100%);
         grid-auto-rows: 266px;
-        gap: 20px;
+        gap: 4%;
         justify-content: center;
     }
 
@@ -524,7 +539,7 @@
         /* border: 2px solid blue; */
         background: #F2F2F2;
         display: grid;
-        grid-template-columns: 91px 189px;
+        grid-template-columns: 91px 1fr;
         grid-template-rows: 30% 1fr 30%;
         grid-template-areas:
             "section_2-img section_2-h2"
@@ -571,8 +586,9 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
-        padding-left: 20px;
-        padding-right: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+
     }
 
     .section_2-link {
@@ -580,7 +596,7 @@
         grid-area: section_2-link;
         display: grid;
         align-content: start;
-        padding-left: 52px;
+        padding-left: 7%;
     }
 
     h2 {
