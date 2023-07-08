@@ -768,3 +768,29 @@
         justify-content: center;
     }
 }
+
+.section5-map {
+    display: grid;
+}
+
+.section5-map_img {
+    display: grid;
+    max-width: 100%;
+    max-height: 60vh;
+}
+
+
+@media (min-width: 200px) and (max-width: 2024px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #F2F2F2;
+    }
+
+    .footer {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
