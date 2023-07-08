@@ -7,7 +7,7 @@
   </a>
 
   <p align="center">
-    <h2><a href="https://anna-kadu.github.io/Project-CatEnergy/"><strong>Сайт питания для котов</strong></a></h2>
+    <h2><strong>Сайт питания для котов</strong></h2>
     <a href="https://github.com/Anna-kadu/Project-CatEnergy.git"><strong>Посмотреть код</strong></a>
     <br />
     <a href="https://github.com/Anna-kadu/Project-CatEnergy/issues">Сообщить об ошибке</a>
